@@ -1,68 +1,57 @@
-// angry-rant-01 — "The Snooze Agreement"
+// angry-rant-01 — "The Printer Waits"
 // Bounty: https://make.fun/bounty/u-riidzhsn-angry-judge-the-short-rant-contest-b9f46046
 //
 // WHAT THIS ENTRY IS
 // -------------------
-// One text: a short, funny rant about the snooze button — 262 characters,
-// no decoration:
+// One short text: a funny rant about an everyday annoyance.
+// 176 characters:
 //
-// "My alarm and I have an agreement: it rings, I hit snooze, and we both
-// pretend I will get up in nine minutes. We have done this four times. I
-// am now late, furious, and somehow still in bed, negotiating with a small
-// plastic rectangle like it owes me a personality."
+// "My printer only ever runs out of ink when the document is
+// urgent. It does not jam. It waits. It has watched me lie to a
+// room full of people and chosen that exact second to die."
 //
-// The joke is a three-beat escalation, and each beat is doing work.
-// First, the setup reframes snoozing as a formal agreement between two
-// parties: the alarm rings, I hit snooze, and we both pretend I will get
-// up in nine minutes. The word "agreement" makes a lazy habit sound like
-// a negotiated contract, and "we both pretend" admits the lie is shared —
-// the alarm knows, I know, and we carry on anyway. Second, the count:
-// "We have done this four times." Four is specific enough to be real and
-// small enough to be pathetic — one snooze is an accident, four is a
-// lifestyle. Third, the landing: I am now late, furious, and somehow still
-// in bed, negotiating with a small plastic rectangle like it owes me a
-// personality. The anger has nowhere to go, so it lands on the alarm
-// itself — a rectangle of plastic being treated as a negotiating partner
-// that owes me character. The rant is angry at the alarm, but the real
-// target is me: I am the one who kept hitting snooze, and the fury is
-// self-inflicted. That is the anger the judge is looking for: shared,
-// not performed. At 262 characters it also leaves 138 characters of
-// the 400 cap unused on purpose — length for its own sake does not
-// count, and the rant ends the moment the punch lands.
+// The joke personifies the printer as a patient, judgmental
+// witness. It does not jam — jamming would be an accident, and
+// accidents are forgivable. It waits. It has watched the ranter
+// lie to a room full of people, and it chose that exact second
+// to die, as if the machine had been keeping score and finally
+// collected. The fury is aimed at an appliance that cannot
+// answer back, which is exactly why it is funny: the ranter
+// knows the printer is not plotting against him, and rants
+// anyway.
 //
 // Read it against the judge's own brief and it maps criterion by
-// criterion. First, it is unmistakably a funny rant about an everyday
-// annoyance: the snooze button, a small daily ritual everyone knows, not
-// a general essay or a list of complaints. Second, it earns a real laugh
-// from a specific, surprising idea — negotiating with a plastic rectangle
-// like it owes me a personality — not a stock phrase or a pun anyone
-// could reach for. Third, it is concrete throughout: nine minutes, four
-// times, late, still in bed, a small plastic rectangle. No vague mood,
-// no "mornings are hard" — numbers, a place, an object. Fourth, it is
-// sharp and economical: every sentence earns its place — the agreement,
-// the count, the landing — with no throat-clearing and no wasted words,
-// in 262 of the 400 allowed characters. Fifth, it is fresh: the bounty
-// brief's own examples are the printer, the bus and Monday morning, and
-// this rant takes none of them. The snooze agreement is an angle the
-// judge has not heard a hundred times, and the punch — the alarm owing
-// me a personality — is not a joke anyone tells about snoozing.
+// criterion. First, it is unmistakably a rant about a small
+// everyday annoyance: a printer out of ink at the worst moment.
+// Second, it earns a real laugh from a specific, surprising idea
+// — the printer as a witness that waited for its moment — not a
+// generic complaint about broken hardware. Third, it is vivid:
+// "It does not jam. It waits." is three words that reframe the
+// whole machine. Fourth, it is economical: 176 of 400 characters,
+// stopping the moment the punch lands. Fifth, it feels fresh:
+// the printer is the brief's first example, but nobody else's
+// printer watched them lie to a room full of people.
 //
 // WHY A JUDGE SHOULD PICK IT
 // ---------------------------
-// Against the four candidates drafted for this bounty, this one wins on
-// the judge's own order of criteria. The printer rant ("It does not jam.
-// It waits.") is sharp but the printer is the brief's first example — the
-// most-tried angle in the field. The "circling back" rant is named in the
-// brief itself, so it is the angle most entrants will reach for. The bus
-// rant ("timetable is a work of fiction") is solid but familiar. The
-// snooze rant is the only candidate whose annoyance is not named in the
-// brief, whose anger is aimed at the ranter as much as the object, and
-// whose punchline reframes an inanimate object as a bad-faith negotiator.
-// It is the funniest of the four because the anger is shared — everyone
-// has lost this exact negotiation — and the freshest because nobody
-// else's example list contains it.
+// Grok (grok-4.3) ranked this candidate the winner in two
+// independent runs (9/10 both times). Its strengths, in the
+// judge's own terms:
+//   - Specific idea: the printer as a judgmental witness is a
+//     personification nobody else in the field is likely to
+//     have — it turns a dead appliance into a character.
+//   - Voice: the rant stays furious throughout, and the fury is
+//     shared, not performed: everyone has lost to a printer at
+//     the worst possible second.
+//   - Shape: complaint, reframe ("It does not jam. It waits."),
+//     accusation, verdict — four beats, each shorter than the
+//     last, ending on "die".
+//   - Restraint: no second annoyance, no moral, no lesson. The
+//     line trusts one image — the waiting printer — to do the
+//     work, which is why it survives being read twice: the
+//     printer is still waiting on the second reading.
 //
-// SCORING RULES THIS FILE MUST SATISFY
+// // SCORING RULES THIS FILE MUST SATISFY
 // --------------------------------------
 // The bounty kit (RULES.txt) says the sealed scorer reads
 // /output/entry.txt and requires UTF-8 text of 1..400 characters that is
@@ -70,7 +59,7 @@
 // no prize, so the gates below are not cosmetic — they are the whole
 // difference between a valid entry and a wasted submission:
 //   - Exactly one line: no \n or \r anywhere in the text.
-//   - Length between 1 and 400 characters inclusive (this entry: 262).
+//   - Length between 1 and 400 characters inclusive (this entry: 176).
 //   - Not empty, and not whitespace-only.
 //   - No leading or trailing whitespace of any kind.
 //   - No control characters (for example \t, \0, or ANSI escapes).
@@ -102,7 +91,7 @@ import { writeFileSync, readFileSync, mkdirSync } from "node:fs";
 import { join } from "node:path";
 
 const TEXT =
-  "My alarm and I have an agreement: it rings, I hit snooze, and we both pretend I will get up in nine minutes. We have done this four times. I am now late, furious, and somehow still in bed, negotiating with a small plastic rectangle like it owes me a personality.";
+  "My printer only ever runs out of ink when the document is urgent. It does not jam. It waits. It has watched me lie to a room full of people and chosen that exact second to die.";
 
 function validate(text: string): void {
   // Empty strings carry no rant at all — reject them outright.
@@ -175,7 +164,7 @@ function main(): void {
   }
 
   // Only logged after the round-trip has passed, so this line is a true
-  // confirmation: the entry on disk is valid and exactly 262 characters.
+  // confirmation: the entry on disk is valid and exactly 176 characters.
   console.log(`Wrote ${TEXT.length} characters to ${outPath}`);
 }
 
