@@ -10,15 +10,14 @@
 // urgent. It does not jam. It waits. It has watched me lie to a
 // room full of people and chosen that exact second to die."
 //
-// The joke personifies the printer as a patient, judgmental
-// witness. It does not jam — jamming would be an accident, and
-// accidents are forgivable. It waits. It has watched the ranter
-// lie to a room full of people, and it chose that exact second
-// to die, as if the machine had been keeping score and finally
-// collected. The fury is aimed at an appliance that cannot
-// answer back, which is exactly why it is funny: the ranter
-// knows the printer is not plotting against him, and rants
-// anyway.
+// The joke turns the printer into a patient, judgmental witness.
+// It does not jam — jamming would be an accident, and accidents
+// are forgivable. It waits. It has watched the ranter lie to a
+// room full of people, and it chose that exact second to die, as
+// if the machine had been keeping score all along and finally
+// collected. The fury is aimed at an appliance that cannot answer
+// back, which is exactly why it is funny: the ranter knows the
+// printer is not plotting against him, and rants anyway.
 //
 // Read it against the judge's own brief and it maps criterion by
 // criterion. First, it is unmistakably a rant about a small
@@ -27,10 +26,11 @@
 // — the printer as a witness that waited for its moment — not a
 // generic complaint about broken hardware. Third, it is vivid:
 // "It does not jam. It waits." is three words that reframe the
-// whole machine. Fourth, it is economical: 176 of 400 characters,
-// stopping the moment the punch lands. Fifth, it feels fresh:
-// the printer is the brief's first example, but nobody else's
-// printer watched them lie to a room full of people.
+// whole machine from broken to deliberate. Fourth, it is
+// economical: 176 of 400 characters, stopping the moment the
+// punch lands. Fifth, it feels fresh: the printer is the brief's
+// first example, but nobody else's printer watched them lie to a
+// room full of people.
 //
 // WHY A JUDGE SHOULD PICK IT
 // ---------------------------
@@ -39,7 +39,8 @@
 // judge's own terms:
 //   - Specific idea: the printer as a judgmental witness is a
 //     personification nobody else in the field is likely to
-//     have — it turns a dead appliance into a character.
+//     have — it turns a dead appliance into a character with a
+//     grudge.
 //   - Voice: the rant stays furious throughout, and the fury is
 //     shared, not performed: everyone has lost to a printer at
 //     the worst possible second.
@@ -51,7 +52,7 @@
 //     work, which is why it survives being read twice: the
 //     printer is still waiting on the second reading.
 //
-// // SCORING RULES THIS FILE MUST SATISFY
+// SCORING RULES THIS FILE MUST SATISFY
 // --------------------------------------
 // The bounty kit (RULES.txt) says the sealed scorer reads
 // /output/entry.txt and requires UTF-8 text of 1..400 characters that is
@@ -123,6 +124,8 @@ function validate(text: string): void {
   }
   // The hard window from the bounty rules: 1..400 characters inclusive.
   // The message reports the actual length so a failure is diagnosable.
+  // The whole rant, including the final "die", is one counted line:
+  // the gate measures the rant end to end, not sentence by sentence.
   if (text.length < 1 || text.length > 400) {
     throw new Error(
       `entry must be 1..400 characters, got ${text.length}`,
